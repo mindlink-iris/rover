@@ -1,6 +1,6 @@
 namespace Rover.Tests
-{
-    public class Tests
+{ 
+    public class InitialiseRoverTests
     {
         [SetUp]
         public void Setup()
