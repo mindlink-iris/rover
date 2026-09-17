@@ -1,0 +1,15 @@
+C:\code\rover\Rover\bin\Debug\net8.0\Rover.exe
+C:\code\rover\Rover\bin\Debug\net8.0\Rover.deps.json
+C:\code\rover\Rover\bin\Debug\net8.0\Rover.runtimeconfig.json
+C:\code\rover\Rover\bin\Debug\net8.0\Rover.dll
+C:\code\rover\Rover\bin\Debug\net8.0\Rover.pdb
+C:\code\rover\Rover\obj\Debug\net8.0\Rover.GeneratedMSBuildEditorConfig.editorconfig
+C:\code\rover\Rover\obj\Debug\net8.0\Rover.AssemblyInfoInputs.cache
+C:\code\rover\Rover\obj\Debug\net8.0\Rover.AssemblyInfo.cs
+C:\code\rover\Rover\obj\Debug\net8.0\Rover.csproj.CoreCompileInputs.cache
+C:\code\rover\Rover\obj\Debug\net8.0\Rover.sourcelink.json
+C:\code\rover\Rover\obj\Debug\net8.0\Rover.dll
+C:\code\rover\Rover\obj\Debug\net8.0\refint\Rover.dll
+C:\code\rover\Rover\obj\Debug\net8.0\Rover.pdb
+C:\code\rover\Rover\obj\Debug\net8.0\Rover.genruntimeconfig.cache
+C:\code\rover\Rover\obj\Debug\net8.0\ref\Rover.dll
