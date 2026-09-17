@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Rover/.vs/Rover.slnx
+/Rover/Rover/obj
+/Rover/Rover.Tests/obj
