@@ -2,5 +2,7 @@ namespace Rover;
 
 public enum CardinalDirection
 {
-    East
+    East,
+    North,
+    West
 }
