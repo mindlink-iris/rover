@@ -2,8 +2,11 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs
-/Rover/obj
-/Rover/bin
-/Rover.Tests/obj
-/Rover.Tests/bin
+/.vs/*
+/Rover/obj/*
+/Rover/bin/*
+/Rover.Tests/obj/*
+/Rover.Tests/bin/*
+/.vs/rover.slnx/v18/.suo
+/.vs/rover.slnx/v18/DocumentLayout.backup.json
+/.vs/rover.slnx/v18/DocumentLayout.json
