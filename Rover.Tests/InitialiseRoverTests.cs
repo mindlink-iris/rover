@@ -2,15 +2,36 @@ namespace Rover.Tests
 { 
     public class InitialiseRoverTests
     {
-        [SetUp]
-        public void Setup()
+        [Test]
+        public void InitializingRoverAtPositionAndDirectionInitializesPosition()
         {
+            var location = (5, 6);
+            Rover rover = new Rover(location, CardinalDirection.East);
+            Assert.That(rover.Location, Is.EqualTo(location));
         }
 
         [Test]
-        public void Test1()
+        public void InitializingRoverAtPositionAndDirectionInitializesDirection()
         {
-            Assert.Pass();
+            Rover rover = new Rover ((5, 6), CardinalDirection.East);
+
+            Assert.That(rover.Direction, Is.EqualTo(CardinalDirection.East));
+        }
+    }
+
+    public enum CardinalDirection
+    { 
+        East
+    }
+    public class Rover
+    {
+        public (int, int) Location { get; }
+        public CardinalDirection Direction { get; }
+
+        public Rover((int, int) location, CardinalDirection direction)
+        {
+            Direction = direction;
+            Location = location;
         }
     }
 }
