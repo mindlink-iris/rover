@@ -25,10 +25,10 @@ while ($i -lt 12) {
 Clear-Host
 
 try {
-    . ".\rover\Rover\bin\Release\net8.0\Rover.exe"
+    . ".\rover\Rover\bin\Release\net6.0\Rover.exe"
 }
 catch {
     Write-Host "Failed to run. See error information above."
 }
 
-Read-Host "Script finished."
+Read-Host ""
