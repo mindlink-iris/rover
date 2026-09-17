@@ -34,5 +34,3 @@ try {
 catch {
     Write-Host "Failed to run. See error information above."
 }
-
-Read-Host ""
