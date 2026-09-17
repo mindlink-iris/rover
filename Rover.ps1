@@ -6,14 +6,18 @@ if (-not $pathExists) {
 
 cd ./rover
 git pull
-cd ..
 
-dotnet build ./rover --configuration Release
+Write-Host "### UP TO DATE ###`n"
 
-Write-Host ""
-Write-Host "### UP TO DATE ###"
-Write-Host "### RUNNING ROVER ###"
-Write-Host ""
+cd ./Rover
+
+dotnet build --configuration Release
+
+Write-Host "### BUILT ###`n"
+
+cd ../..
+
+Write-Host "### RUNNING ROVER ###`n"
 
 $i = 0
 while ($i -lt 12) {
