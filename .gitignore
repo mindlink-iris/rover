@@ -2,9 +2,8 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs/Rover.slnx
+/.vs
 /Rover/obj
 /Rover/bin
 /Rover.Tests/obj
 /Rover.Tests/bin
-/.vs/ProjectEvaluation
