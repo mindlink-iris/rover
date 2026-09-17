@@ -24,4 +24,11 @@ while ($i -lt 12) {
 
 Clear-Host
 
-. ".\rover\Rover\bin\Release\net8.0\Rover.exe"
+try {
+    . ".\rover\Rover\bin\Release\net8.0\Rover.exe"
+}
+catch {
+    Write-Host "Failed to run. See error information above."
+}
+
+Read-Host "Script finished."
