@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Rover.Tests/Rover.Tests.csproj" />
+  <Project Path="Rover/Rover.csproj" />
+</Solution>
